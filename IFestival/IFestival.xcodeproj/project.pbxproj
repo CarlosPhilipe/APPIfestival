@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72602A261CD1AF46000922AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72602A251CD1AF46000922AA /* AppDelegate.swift */; };
+		72602A281CD1AF46000922AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72602A271CD1AF46000922AA /* ViewController.swift */; };
+		72602A2B1CD1AF46000922AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72602A291CD1AF46000922AA /* Main.storyboard */; };
+		72602A2E1CD1AF46000922AA /* IFestival.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72602A2C1CD1AF46000922AA /* IFestival.xcdatamodeld */; };
+		72602A301CD1AF46000922AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72602A2F1CD1AF46000922AA /* Assets.xcassets */; };
+		72602A331CD1AF46000922AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72602A311CD1AF46000922AA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72602A221CD1AF46000922AA /* IFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72602A251CD1AF46000922AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72602A271CD1AF46000922AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72602A2A1CD1AF46000922AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72602A2D1CD1AF46000922AA /* IFestival.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IFestival.xcdatamodel; sourceTree = "<group>"; };
+		72602A2F1CD1AF46000922AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72602A321CD1AF46000922AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72602A341CD1AF46000922AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72602A1F1CD1AF46000922AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72602A191CD1AF45000922AA = {
+			isa = PBXGroup;
+			children = (
+				72602A241CD1AF46000922AA /* IFestival */,
+				72602A231CD1AF46000922AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72602A231CD1AF46000922AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72602A221CD1AF46000922AA /* IFestival.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72602A241CD1AF46000922AA /* IFestival */ = {
+			isa = PBXGroup;
+			children = (
+				72602A251CD1AF46000922AA /* AppDelegate.swift */,
+				72602A271CD1AF46000922AA /* ViewController.swift */,
+				72602A291CD1AF46000922AA /* Main.storyboard */,
+				72602A2F1CD1AF46000922AA /* Assets.xcassets */,
+				72602A311CD1AF46000922AA /* LaunchScreen.storyboard */,
+				72602A341CD1AF46000922AA /* Info.plist */,
+				72602A2C1CD1AF46000922AA /* IFestival.xcdatamodeld */,
+			);
+			path = IFestival;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72602A211CD1AF46000922AA /* IFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72602A371CD1AF46000922AA /* Build configuration list for PBXNativeTarget "IFestival" */;
+			buildPhases = (
+				72602A1E1CD1AF46000922AA /* Sources */,
+				72602A1F1CD1AF46000922AA /* Frameworks */,
+				72602A201CD1AF46000922AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFestival;
+			productName = IFestival;
+			productReference = 72602A221CD1AF46000922AA /* IFestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72602A1A1CD1AF45000922AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Philipe Mendes Bahia";
+				TargetAttributes = {
+					72602A211CD1AF46000922AA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WSZ4B83TUM;
+					};
+				};
+			};
+			buildConfigurationList = 72602A1D1CD1AF45000922AA /* Build configuration list for PBXProject "IFestival" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72602A191CD1AF45000922AA;
+			productRefGroup = 72602A231CD1AF46000922AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72602A211CD1AF46000922AA /* IFestival */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72602A201CD1AF46000922AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72602A331CD1AF46000922AA /* LaunchScreen.storyboard in Resources */,
+				72602A301CD1AF46000922AA /* Assets.xcassets in Resources */,
+				72602A2B1CD1AF46000922AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72602A1E1CD1AF46000922AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72602A281CD1AF46000922AA /* ViewController.swift in Sources */,
+				72602A2E1CD1AF46000922AA /* IFestival.xcdatamodeld in Sources */,
+				72602A261CD1AF46000922AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72602A291CD1AF46000922AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72602A2A1CD1AF46000922AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72602A311CD1AF46000922AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72602A321CD1AF46000922AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72602A351CD1AF46000922AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72602A361CD1AF46000922AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72602A381CD1AF46000922AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IFestival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifestival.IFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		72602A391CD1AF46000922AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IFestival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifestival.IFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72602A1D1CD1AF45000922AA /* Build configuration list for PBXProject "IFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72602A351CD1AF46000922AA /* Debug */,
+				72602A361CD1AF46000922AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72602A371CD1AF46000922AA /* Build configuration list for PBXNativeTarget "IFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72602A381CD1AF46000922AA /* Debug */,
+				72602A391CD1AF46000922AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72602A2C1CD1AF46000922AA /* IFestival.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72602A2D1CD1AF46000922AA /* IFestival.xcdatamodel */,
+			);
+			currentVersion = 72602A2D1CD1AF46000922AA /* IFestival.xcdatamodel */;
+			path = IFestival.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72602A1A1CD1AF45000922AA /* Project object */;
+}
